@@ -1,0 +1,23 @@
+/** Stylesheet for thin windows, found on mobile devices **/
+/* Moves the sidebars above and below the main content instead of beside */
+
+#responsive {
+	flex-wrap: wrap;
+}
+
+#content {
+	order: 0;
+	width: 100%;
+}
+
+.sidebar {
+	flex-grow: 1;
+}
+
+#left {
+	margin-bottom: 16px;
+}
+
+#right {
+	margin-top: 16px;
+}

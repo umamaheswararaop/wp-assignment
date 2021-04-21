@@ -1,0 +1,19 @@
+[21-Apr-2021 03:14:26 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/bluehost-wordpress-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 89
+[21-Apr-2021 03:15:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Jetpack_SEO_Utils' not found in /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-get-site-endpoint.php:3
+Stack trace:
+#0 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints.php(32): require_once()
+#1 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/class.json-api-endpoints.php(2169): require_once('/home1/mukpaemy...')
+#2 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/class-jetpack-xmlrpc-methods.php(178): require_once('/home1/mukpaemy...')
+#3 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(121): Jetpack_XMLRPC_Methods::json_api(Array)
+#4 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(211): IXR_Server->call('jetpack.jsonAPI', Array)
+#5 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(109): IXR_Server->multiCall(Array)
+#6 in /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-get-site-endpoint.php on line 3
+[21-Apr-2021 12:41:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Jetpack_SEO_Utils' not found in /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-get-site-endpoint.php:3
+Stack trace:
+#0 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints.php(32): require_once()
+#1 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/class.json-api-endpoints.php(2169): require_once('/home1/mukpaemy...')
+#2 /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/class-jetpack-xmlrpc-methods.php(178): require_once('/home1/mukpaemy...')
+#3 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(121): Jetpack_XMLRPC_Methods::json_api(Array)
+#4 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(211): IXR_Server->call('jetpack.jsonAPI', Array)
+#5 /home1/mukpaemy/public_html/actfintax/assignment/wp-includes/IXR/class-IXR-server.php(109): IXR_Server->multiCall(Array)
+#6 in /home1/mukpaemy/public_html/actfintax/assignment/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-get-site-endpoint.php on line 3
